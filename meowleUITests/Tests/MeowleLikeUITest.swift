@@ -1,10 +1,3 @@
-//
-//  MeowleSearchCatUITests.swift
-//  meowleUITests
-//
-//  Created by a.gorshchak on 09.04.2024.
-//
-
 import XCTest
 
 private extension String {
@@ -12,11 +5,10 @@ private extension String {
     static let nameOfCatAccordingSearchResults = "Батон ♂"
 }
 
-final class MeowleSearchCatUITests: BasePage {
+final class MeowleLikeUITests: BasePage {  // ТЕСТ КЕЙС 4
     
     // MARK: - Tests
     
-    // Учимся прописывать (accessibilityIdentifyer) элементу. (Поиск котика):
     func testSearchOfAcat() {
         
         openApp(isAuthorised: true)
@@ -29,5 +21,9 @@ final class MeowleSearchCatUITests: BasePage {
             .assertExistanceNameOf(cat: .catBaton)
             .tapCat(name: .catBaton)
             .assertExistanceNameOf(cat: .nameOfCatAccordingSearchResults)
+        MeowleCatDetailsPage()
+            .clickLike()
+            .assertLikes()
     }
+
 }

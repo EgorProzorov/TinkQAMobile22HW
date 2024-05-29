@@ -47,6 +47,7 @@ final class CatViewController: UIViewController {
     }()
     private let likesButton: UIButton = {
         let view = UIButton(configuration: UIButton.Configuration.bordered())
+        view.accessibilityIdentifier = "likeCatButton"
         view.backgroundColor = .lightGray.withAlphaComponent(0.5)
         view.layer.cornerRadius = 5
         view.setContentCompressionResistancePriority(.required, for: .horizontal)

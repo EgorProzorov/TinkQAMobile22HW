@@ -14,11 +14,8 @@
 		37A60C012BCA849000B9C499 /* core_cats_add.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60C002BCA849000B9C499 /* core_cats_add.json */; };
 		37A60C032BCA84C500B9C499 /* core_cats_save-description.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60C022BCA84C500B9C499 /* core_cats_save-description.json */; };
 		37A60C052BCA851000B9C499 /* likes_cats_14203_likes.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A60C042BCA851000B9C499 /* likes_cats_14203_likes.json */; };
-		37A60C072BCA8A8600B9C499 /* AddNewCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A60C062BCA8A8600B9C499 /* AddNewCatUITests.swift */; };
 		37DCE6C22BC57A2D00710D90 /* MeowleAuthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C12BC57A2D00710D90 /* MeowleAuthPage.swift */; };
 		37DCE6C42BC57B2400710D90 /* MeowleSearchCatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C32BC57B2400710D90 /* MeowleSearchCatPage.swift */; };
-		37DCE6C62BC57EBA00710D90 /* MeowleSearchCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C52BC57EBA00710D90 /* MeowleSearchCatUITests.swift */; };
-		37DCE6C82BC58F8200710D90 /* MeowleRatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C72BC58F8200710D90 /* MeowleRatingUITests.swift */; };
 		37DCE6CA2BC58F9F00710D90 /* MeowleRatingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE6C92BC58F9F00710D90 /* MeowleRatingPage.swift */; };
 		37DCE6CC2BC5BC8D00710D90 /* rating.json in Resources */ = {isa = PBXBuildFile; fileRef = 37DCE6CB2BC5BC8D00710D90 /* rating.json */; };
 		565B6240B1ADCF0F4D26A45A /* Pods_meowle_meowleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C632AAC971457729C7554FD /* Pods_meowle_meowleUITests.framework */; };
@@ -26,6 +23,8 @@
 		7312ED5C2C06843500DF6369 /* MeowleAllCatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7312ED5B2C06843500DF6369 /* MeowleAllCatsUITests.swift */; };
 		7312ED5F2C07671200DF6369 /* MeowleUnloginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7312ED5D2C07671200DF6369 /* MeowleUnloginUITests.swift */; };
 		7312ED622C07681A00DF6369 /* MeowleSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7312ED602C07681A00DF6369 /* MeowleSettingsPage.swift */; };
+		7312ED642C0777F500DF6369 /* MeowleLikeUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7312ED632C0777F500DF6369 /* MeowleLikeUITest.swift */; };
+		7312ED662C07792E00DF6369 /* MeowleCatDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7312ED652C07792E00DF6369 /* MeowleCatDetailsPage.swift */; };
 		9C61244D2BC55AB20079CE48 /* likes_cats_rating.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C61244C2BC55AB20079CE48 /* likes_cats_rating.json */; };
 		9C6FC8152B5BCC6D00DACA64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FC8142B5BCC6D00DACA64 /* AppDelegate.swift */; };
 		9C6FC8192B5BCC6D00DACA64 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FC8182B5BCC6D00DACA64 /* SearchViewController.swift */; };
@@ -75,11 +74,8 @@
 		37A60C002BCA849000B9C499 /* core_cats_add.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = core_cats_add.json; sourceTree = "<group>"; };
 		37A60C022BCA84C500B9C499 /* core_cats_save-description.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "core_cats_save-description.json"; sourceTree = "<group>"; };
 		37A60C042BCA851000B9C499 /* likes_cats_14203_likes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = likes_cats_14203_likes.json; sourceTree = "<group>"; };
-		37A60C062BCA8A8600B9C499 /* AddNewCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCatUITests.swift; sourceTree = "<group>"; };
 		37DCE6C12BC57A2D00710D90 /* MeowleAuthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleAuthPage.swift; sourceTree = "<group>"; };
 		37DCE6C32BC57B2400710D90 /* MeowleSearchCatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleSearchCatPage.swift; sourceTree = "<group>"; };
-		37DCE6C52BC57EBA00710D90 /* MeowleSearchCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleSearchCatUITests.swift; sourceTree = "<group>"; };
-		37DCE6C72BC58F8200710D90 /* MeowleRatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleRatingUITests.swift; sourceTree = "<group>"; };
 		37DCE6C92BC58F9F00710D90 /* MeowleRatingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleRatingPage.swift; sourceTree = "<group>"; };
 		37DCE6CB2BC5BC8D00710D90 /* rating.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rating.json; sourceTree = "<group>"; };
 		54C47CB863A90DA7C1BBB964 /* Pods-meowle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowle.release.xcconfig"; path = "Target Support Files/Pods-meowle/Pods-meowle.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +83,8 @@
 		7312ED5B2C06843500DF6369 /* MeowleAllCatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleAllCatsUITests.swift; sourceTree = "<group>"; };
 		7312ED5D2C07671200DF6369 /* MeowleUnloginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleUnloginUITests.swift; sourceTree = "<group>"; };
 		7312ED602C07681A00DF6369 /* MeowleSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleSettingsPage.swift; sourceTree = "<group>"; };
+		7312ED632C0777F500DF6369 /* MeowleLikeUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleLikeUITest.swift; sourceTree = "<group>"; };
+		7312ED652C07792E00DF6369 /* MeowleCatDetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowleCatDetailsPage.swift; sourceTree = "<group>"; };
 		74BBB720B26110DA59C25107 /* Pods-meowle-meowleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowle-meowleUITests.debug.xcconfig"; path = "Target Support Files/Pods-meowle-meowleUITests/Pods-meowle-meowleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		78C1794913C2C3545A00949E /* Pods-meowle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowle.debug.xcconfig"; path = "Target Support Files/Pods-meowle/Pods-meowle.debug.xcconfig"; sourceTree = "<group>"; };
 		9C61244C2BC55AB20079CE48 /* likes_cats_rating.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = likes_cats_rating.json; sourceTree = "<group>"; };
@@ -144,12 +142,10 @@
 		37DCE6BD2BC578F000710D90 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				7312ED632C0777F500DF6369 /* MeowleLikeUITest.swift */,
 				7312ED5D2C07671200DF6369 /* MeowleUnloginUITests.swift */,
 				7312ED5B2C06843500DF6369 /* MeowleAllCatsUITests.swift */,
 				7312ED512BFE774A00DF6369 /* MeowleSignInUITest.swift */,
-				37DCE6C52BC57EBA00710D90 /* MeowleSearchCatUITests.swift */,
-				37DCE6C72BC58F8200710D90 /* MeowleRatingUITests.swift */,
-				37A60C062BCA8A8600B9C499 /* AddNewCatUITests.swift */,
 				37DCE6C02BC57A0900710D90 /* PageObjects */,
 			);
 			path = Tests;
@@ -164,6 +160,7 @@
 				37DCE6C92BC58F9F00710D90 /* MeowleRatingPage.swift */,
 				3735C1702BCBE3B3000CA7AD /* AddNewCatPage.swift */,
 				7312ED602C07681A00DF6369 /* MeowleSettingsPage.swift */,
+				7312ED652C07792E00DF6369 /* MeowleCatDetailsPage.swift */,
 			);
 			path = PageObjects;
 			sourceTree = "<group>";
@@ -520,14 +517,13 @@
 				7312ED5C2C06843500DF6369 /* MeowleAllCatsUITests.swift in Sources */,
 				9C87A1E32BA72261005771DF /* BasePage.swift in Sources */,
 				7312ED522BFE774A00DF6369 /* MeowleSignInUITest.swift in Sources */,
-				37A60C072BCA8A8600B9C499 /* AddNewCatUITests.swift in Sources */,
-				37DCE6C62BC57EBA00710D90 /* MeowleSearchCatUITests.swift in Sources */,
+				7312ED642C0777F500DF6369 /* MeowleLikeUITest.swift in Sources */,
 				37DCE6CA2BC58F9F00710D90 /* MeowleRatingPage.swift in Sources */,
-				37DCE6C82BC58F8200710D90 /* MeowleRatingUITests.swift in Sources */,
 				37DCE6C42BC57B2400710D90 /* MeowleSearchCatPage.swift in Sources */,
 				37DCE6C22BC57A2D00710D90 /* MeowleAuthPage.swift in Sources */,
 				9C6FC8382B5BCC6E00DACA64 /* meowleUITestsLaunchTests.swift in Sources */,
 				7312ED5F2C07671200DF6369 /* MeowleUnloginUITests.swift in Sources */,
+				7312ED662C07792E00DF6369 /* MeowleCatDetailsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
