@@ -8,7 +8,7 @@ private extension String {
     static let cat3 = "Кот №3"
 }
 
-final class MeowleAllNamesUITests: BasePage { // ТЕСТКЕЙС 2
+final class MeowleAllCatsUITests: BasePage { // ТЕСТКЕЙС 2
     
     // MARK: - Tests
     func testAllCats() {
