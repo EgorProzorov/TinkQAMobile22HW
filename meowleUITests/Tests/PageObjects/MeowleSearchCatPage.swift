@@ -13,6 +13,8 @@ private extension String {
     static let addButtonLabel = "Добавить"
     static let mainScreenIdentifier = "searchScreenViewController" 
     static let rating = "Рейтинг"
+    static let settings = "Настройки"
+    static let allCats = "Все имена"
 }
 
 final class MeowleSearchCatPage: BasePage {
@@ -24,8 +26,15 @@ final class MeowleSearchCatPage: BasePage {
     private lazy var addButton = app.buttons[.addButtonLabel]
     private lazy var mainScreenTitle = app.otherElements[.mainScreenIdentifier]
     private lazy var ratingButton = app.buttons[.rating]
-    
+    private lazy var allCatsButton = app.buttons[.allCats]
+    private lazy var settingsButton = app.buttons[.settings]
     // MARK: - Actions
+    
+    @discardableResult
+    func tapSettingsButton() -> MeowleSettingsPage {
+        settingsButton.tap()
+        return MeowleSettingsPage()
+    }
     
     //Тап по табе "Рейтинг"
     @discardableResult
@@ -69,6 +78,11 @@ final class MeowleSearchCatPage: BasePage {
         return self
     }
     
+    @discardableResult
+    func tapAllCats() -> MeowleSearchCatPage{
+        allCatsButton.tap()
+        return self
+    }
     // MARK: - Asserts
     
     // Проверка наличия имени котика
@@ -82,6 +96,14 @@ final class MeowleSearchCatPage: BasePage {
     @discardableResult
     func checkThatSearchScreenIsOpened() -> MeowleSearchCatPage {
         XCTAssertTrue(mainScreenTitle.waitForExistence(timeout: .timeout))
+        return self
+    }
+    
+    @discardableResult
+    func checkThreeCats(cat1: String, cat2: String, cat3: String) -> MeowleSearchCatPage {
+        XCTAssert(app.staticTexts[cat1].exists)
+        XCTAssert(app.staticTexts[cat2].exists)
+        XCTAssert(app.staticTexts[cat3].exists)
         return self
     }
 }

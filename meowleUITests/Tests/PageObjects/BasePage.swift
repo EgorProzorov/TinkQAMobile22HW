@@ -15,7 +15,7 @@ extension TimeInterval {
 }
 
 private extension String {
-    static let authName = "Александр"
+    static let authName = "Егор"
 }
 
 class BasePage: XCTestCase {

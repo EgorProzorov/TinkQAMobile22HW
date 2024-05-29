@@ -1,21 +1,11 @@
-//
-//  MeowleSearchCatUITests.swift
-//  meowleUITests
-//
-//  Created by a.gorshchak on 09.04.2024.
-//
-
 import XCTest
 
 private extension String {
     static let user = "Егор"
 }
 
-final class MeowleSignInUITests: BasePage {
+final class MeowleSignInUITests: BasePage { // ТЕСТ КЕЙС 1
     
-    // MARK: - Tests
-    
-    // Учимся прописывать (accessibilityIdentifyer) элементу. (Поиск котика):
     func testSearchOfAcat() {
         
         openApp(isAuthorised: false)

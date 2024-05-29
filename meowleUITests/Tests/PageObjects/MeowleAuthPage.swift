@@ -10,14 +10,23 @@ import XCTest
 private extension String {
     static let authorizationTextField = "Введите своё имя"
     static let authEnterButton = "Войти"
+    static let authScreenIdentifier = "authScreenViewController"
 }
 
 final class MeowleAuthPage: BasePage {
     
     // MARK: - Elements
-    
+    private lazy var authScreenTitle = app.otherElements[.authScreenIdentifier]
     private lazy var fieldText = app.textFields[.authorizationTextField]
     private lazy var enterButton = app.buttons[.authEnterButton]
+    
+    
+    // MARK: Asserts
+    @discardableResult
+    func checkAuthScreenOpen() -> MeowleAuthPage{
+        XCTAssertTrue(authScreenTitle.waitForExistence(timeout: .timeout))
+        return self
+    }
     
     // MARK: - Actions
     

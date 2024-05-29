@@ -26,6 +26,7 @@ final class SettingsViewController: UIViewController {
         let button = UIButton(configuration: .bordered())
         button.setTitle("Выйти из аккаунта", for: .normal)
         button.accessibilityIdentifier = "logOutFromApplication"
+        // identifier уже был прописан)
         button.addTarget(self, action: #selector(didTapLogout), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
